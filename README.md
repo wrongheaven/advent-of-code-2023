@@ -10,7 +10,7 @@ To test these solutions with your own inputs, you need to add an `input` folder 
 
 Each solution can be run independently. The command should be in the format `node days/<DD>.js`, where `<DD>` is the double-digit day number. For example, for day 5, you would run:
 ```bash
-$ node days/05.js
+node days/05.js
 ```
 
 After running the script, you should see output in the following format:
