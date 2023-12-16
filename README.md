@@ -19,7 +19,7 @@ Day X Part 1: 12345
 Day X Part 2: 23456
 ```
 
-If a problem does not have a solution, it is not because the problem is unsolvable, but because I have not yet come up with a solution. In such cases, the output for that problem will be null.
+If a problem does not have a solution, it is not because the problem is unsolvable, but because I have not yet come up with a solution. In such cases, the output for that problem will be `null`.
 
 Please note that these solutions are provided as is and may not be the most optimized solutions.
 
