@@ -1,13 +1,6 @@
-import { readFileSync } from 'fs';
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
+import { getInput } from './utils.js';
 
-const inputFile = '02.txt';
-
-const __inputdir = dirname(dirname(fileURLToPath(import.meta.url))) + '/input'
-
-const inputArray = readFileSync(`${__inputdir}/${inputFile}`, 'utf8').split('\n');
-
+const inputArray = getInput('02');
 
 // ======== PART 1 ========
 
