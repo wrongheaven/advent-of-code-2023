@@ -4,7 +4,7 @@ import { dirname } from 'path';
 
 const inputFile = '03.txt';
 
-const __inputdir = dname(3) + '/input';
+const __inputdir = dname(2) + '/input';
 
 const inputArray = readFileSync(`${__inputdir}/${inputFile}`, 'utf8').split('\n');
 
@@ -129,3 +129,13 @@ console.log(`Day 3 Part 1: ${sumPartNumbers}`);
 
 
 // ======== PART 2 ========
+
+let sumGearRatios = null;
+
+console.log(`Day 3 Part 2: ${sumGearRatios}`);
+
+
+
+
+
+
