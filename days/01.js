@@ -7,7 +7,7 @@ const inputFile = '01.txt';
 const __inputdir = dirname(dirname(fileURLToPath(import.meta.url))) + '/input'
 
 const inputArray = readFileSync(`${__inputdir}/${inputFile}`, 'utf8').split('\n');
-
+console.log(inputArray);
 
 // ======== PART 1 ========
 
@@ -51,7 +51,6 @@ inputArray.forEach((input) => {
     last = map[last] || last;
 
     const concat = parseInt(first + last);
-    console.log(concat);
     
     sum += concat;
 });
