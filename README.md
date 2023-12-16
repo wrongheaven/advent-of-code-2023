@@ -4,7 +4,7 @@ This repository contains JavaScript solutions for the Advent of Code 2023.
 
 ## Getting Started
 
-To test these solutions with your own inputs, you need to add an `input` folder at the root of the project. Each input file should be named as double-digit day numbers (01, 02, ..., 25) and should be in .txt format. Place these files inside the `input` folder.
+To test these solutions with your own inputs, place them inside the `input` folder at the root of the project. Each input file should be named as double-digit day numbers (01, 02, ..., 25) and should be in .txt format.
 
 ## Running the Solutions
 
